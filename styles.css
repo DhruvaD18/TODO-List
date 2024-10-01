@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  background-image: url(images/background.jpg);
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size:20px;
+}
+
+.container {
+  border: 10px solid black;
+  border-radius: 70px;
+  margin: auto;
+  width:50%;
+  margin-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 60px;
+  padding-right: 100px;
+}
+
+.todo-grid,
+.todo-input {
+  border: 7px solid black;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: grid;
+  grid-template-columns: 200px 160px 120px;
+  column-gap: 10px;
+  row-gap: 10px;  
+  align-items: center;
+  font-size:25px;
+}
+
+.todo-input {
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+.name-input,
+.date-input {
+  font-size:20px;
+  padding:6px;
+}
+
+.add-button,
+.delete-button{
+  background-color: #2176e6;
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: rgb(232, 14, 14);
+  color: white;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
